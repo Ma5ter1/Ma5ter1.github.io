@@ -1,0 +1,250 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+.maindiv{
+    /*display:inline-block;*/
+    height:2000px;
+    width:auto;
+    text-align:left;
+    padding:5px;
+    background:url('backgroundmain.png')
+}
+
+/*HEADER ELEMENTS*/
+.headerdiv{
+    display:inline-block;
+    height:50px;
+    width:100%;
+    line-height:20px;
+    text-align:left;
+    padding-left:1px;
+}
+#headertext{
+    display:absolute;
+    font-size:0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFFFFF;
+    text-shadow: 3px 2px #e4e3e3;
+    margin:-1% auto auto 1.5%;
+}
+#headerimg{
+    display:inline-block;
+    height:50px;
+    width:100%;
+    line-height:20px;
+    text-align:left;
+    padding-left:1px;
+    background:url('header.png');
+    transition: 0.8s;
+}
+.headerbuttonsclass{
+    display:absolute;
+    height:90%;
+    width: 80%;
+    margin:auto 8%;
+    text-align:center;
+    padding: 2px;
+}
+#button1{
+    display:inline-block;
+    border: 1px solid #FFFFFF;
+    height:30px;
+    width:15.5%;
+    margin:5px auto 1% 5%;
+    padding-left:0;
+    background:url('buttonbg.png') no-repeat;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+#button2{
+    display:inline-block;
+    border: 1px solid #FFFFFF;
+    height:30px;
+    width: 15.5%;
+    margin: 5px auto 1% 5%;
+    padding-left:0;
+    background:url('buttonbg.png') no-repeat;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+#button3{
+    display:inline-block;
+    border: 1px solid #FFFFFF;
+    height:30px;
+    width: 15.5%;
+    margin: 5px auto 1% 5%;
+    padding-left:0;
+    background:url('buttonbg.png') no-repeat;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+#button4{
+    display:inline-block;
+    border: 1px solid #FFFFFF;
+    height:30px;
+    width: 15.5%;
+    margin: 5px auto 1% 5%;
+    padding-left:0;
+    background:url('buttonbg.png') no-repeat;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+/*HOVER SECTION AND EFFECTS*/
+#headerimg:hover{
+    opacity:0.5;
+    height:auto;
+    transition:0.5 ease-in-out;
+}
+#button1:hover{
+    background:#e6e6e6;
+    color:white;
+    /*box-shadow: 10px 10px 10px 10px #FFFFFF;*/
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow:
+    inset 0 0 5px #fff,      /* inner white */
+    inset 5px 0 80px rgb(255, 0, 157),   /* inner left magenta short */
+    inset -20px 0 80px rgb(72, 50, 243),  /* inner right cyan short */
+    inset 5px 0 300px rgb(255, 0, 157),  /* inner left magenta broad */
+    inset -10px 0 300px rgb(72, 50, 243), /* inner right cyan broad */
+    0 0 10px #fff,            /* outer white */
+    -20px 0 80px rgb(255, 0, 157),        /* outer left magenta */
+    5px 0 80px rgb(72, 50, 243);         /* outer right cyan */
+    transition:0.5 ease-in-out;
+    /*misc stuff*/
+    cursor: crosshair;
+}
+#urllinkhome:hover {
+  display: block;
+  opacity: 1;
+  width:90px;
+  height:90px;
+  transition:1 ease-in-out;
+}
+#urllinkhome{
+    position:absolute;
+    display: block;
+    margin: 0 auto 12% 0.9%;
+    opacity:0;
+    width:200px;
+    height:90px;
+}
+#button2:hover{
+    background:#e6e6e6;
+    color:white;
+    /*box-shadow: 10px 10px 10px 10px #FFFFFF;*/
+    width: 200px;
+    height: 100px;
+    border-radius: 65%;
+    box-shadow:
+    inset 0 0 5px #fff,      /* inner white */
+    inset 5px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 5px 0 300px #f0f,  /* inner left magenta broad */
+    inset -10px 0 300px #0ff, /* inner right cyan broad */
+    0 0 10px #fff,            /* outer white */
+    -20px 0 80px #f0f,        /* outer left magenta */
+    5px 0 80px #0ff;         /* outer right cyan */
+    transition:0.5 ease-in-out;
+    /*misc stuff*/
+    cursor: crosshair;
+}
+#sourceurllink:hover {
+  display: block;
+  opacity: 1;
+  width:100px;
+  height:auto;
+  transition:1 ease-in-out;
+}
+#sourceurllink{
+    position:absolute;
+    display: block;
+    margin: 0 auto 0 2.5%;
+    opacity:0;
+    width:200px;
+    height:auto;
+}
+#button3:hover{
+    background:#e6e6e6;
+    color:white;
+    /*box-shadow: 10px 10px 10px 10px #FFFFFF;*/
+    width: 200px;
+    height: 100px;
+    border-radius: 35%;
+    box-shadow:
+    inset 0 0 5px #fff,      /* inner white */
+    inset 5px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 5px 0 300px #f0f,  /* inner left magenta broad */
+    inset -10px 0 300px #0ff, /* inner right cyan broad */
+    0 0 10px #fff,            /* outer white */
+    -20px 0 80px #f0f,        /* outer left magenta */
+    5px 0 80px #0ff;         /* outer right cyan */
+    transition:0.5 ease-in-out;
+    /*misc stuff*/
+    cursor: crosshair;
+}
+#button4:hover{
+    background:#e6e6e6;
+    color:white;
+    /*box-shadow: 10px 10px 10px 10px #FFFFFF;*/
+    width: 120px;
+    height: 100px;
+    border-radius: 55%;
+    box-shadow:
+    inset 0 0 5px #fff,      /* inner white */
+    inset 5px 0 80px #f0f,   /* inner left magenta short */
+    inset -20px 0 80px #0ff,  /* inner right cyan short */
+    inset 5px 0 300px #f0f,  /* inner left magenta broad */
+    inset -10px 0 300px #0ff, /* inner right cyan broad */
+    0 0 10px #fff,            /* outer white */
+    -20px 0 80px #f0f,        /* outer left magenta */
+    5px 0 80px #0ff;         /* outer right cyan */
+    transition:0.5 ease-in-out;
+
+    /*misc stuff*/
+    cursor: crosshair;
+}
+.sideimgdiv:hover{
+    border-radius: 25px;
+    opacity:0.9;
+    transition: transform .5s, filter 0.5s ease-in-out;filter: sepia(50%);
+}
+/*BODY ELEMENTS*/
+.sideimgdiv{
+    position:absolute;
+    border: 3px solid #FFFFFF;
+    height:201px;
+    width:155px;
+    margin:5% 15% 15% auto;
+    background:url('mebusinesweb.png') no-repeat;
+}
+.bodysectiondiv{
+    display:absolute;
+    height:850px;
+    width: 50%;
+    margin:14% auto 25%;
+    padding: 10px;
+    background:url('bodybg.png');
+    opacity:0.7;
+    border-radius: 15px;
+}
+.bodyanimframe{
+    float: right;
+    border: 3px solid #FFFFFF;
+    height:850px;
+    width: 20%;
+    margin:auto 0 30% auto;
+    padding: 1px;
+    background:url('sidepanel.png');
+    border-radius: 15px;
+}
+.bodysideformatting{
+    text-align:left;
+    margin:auto 10% 10% 10%;
+    padding:auto;
+}
+
+/*BODY EFFECTS*/
